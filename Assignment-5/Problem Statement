@@ -1,0 +1,16 @@
+Given a CNN Classifier built with TensorFlow, make changes to the classifier so that it performs better than how it performs now.
+
+The MNIST_Classifier.ipynb present in this directory had used the in-built MNIST dataset and other classes from the 
+TensorFlow library to build a CNN Classifier. It was built with single convolutional layer, a max pooling layer, and two
+dense layers to process the 28*28 input and classify them into 10 different classes. 
+
+And it has an accuracy of 95%. Well, though its considered a high accuracy score, is it all a classsifier built on CNN can do?
+Definitely not. There is still scope for improvement. By playing with the number layers and other parameters, we believe that a 
+model better than the one present above can be built resulting in a higher accuracy.
+
+And, one solution where a much better performance is observed is presented in the file Better_MNIST_Classifier.ipynb
+Below are the considerable changes made in the new file:
+A convolutional layer is added
+A max pooling layer is added
+The batch size is reduced to 100
+The number of epochs is increased to 10

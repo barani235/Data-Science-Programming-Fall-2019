@@ -5,8 +5,8 @@ TensorFlow library to build a CNN Classifier. It was built with single convoluti
 dense layers to process the 28*28 input and classify them into 10 different classes. 
 
 And it has an accuracy of 95%. Well, though its considered a high accuracy score, is it all a classsifier built on CNN can do?
-Definitely not. There is still scope for improvement. By playing with the number layers and other parameters, we believe that a 
-model better than the one present above can be built resulting in a higher accuracy.
+Definitely not. There is still scope for improvement. By playing with the number of layers and other parameters, we believe that a 
+model better than the one presented above can be built resulting in a higher accuracy.
 
 And, one solution where a much better performance is observed is presented in the file Better_MNIST_Classifier.ipynb
 Below are the considerable changes made in the new file:
